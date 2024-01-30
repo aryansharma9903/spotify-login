@@ -1,0 +1,79 @@
+.login{
+    background-color: black;
+    display: grid;
+    height: 100vh;
+}
+
+.heading{
+    place-items: left;
+}
+.heading > img{
+    padding-left: 22px;
+    padding-top: 30px;
+    place-items: left;
+    height: 37px;
+}
+
+.login_text{
+    background-color: green;
+    color: green;
+    
+}
+.link{
+    background-image:'file:///Users/aryansharma/Downloads/search.png';
+    text-align: center;
+    text-decoration: none;
+    border-color: aliceblue;
+    border-width: 100px;
+    margin-left: 30vh;
+    height:20px;
+    width: 250px;
+    place-items: center;
+    background-size: 10px;
+    padding: 20px;
+    border-radius: 99px;
+    background-color: green;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+.link::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border: var();
+}
+.text{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 30vw;
+    width: 40vw;
+    color: white;
+}
+input{
+    box-shadow: 10px;
+    border-color: grey;
+    background-color: black;
+    height: 40px;
+    width: 79%;
+}
+
+.linkk{
+    border-color: aliceblue;
+    border-width: 100px;
+    margin-left: 30vh;
+    height: 25px;
+    width: 250px;
+    place-items: center;
+    background-size: 10px;
+    padding: 20px;
+    border-radius: 99px;
+    background-color: green;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
